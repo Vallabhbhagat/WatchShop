@@ -30,15 +30,13 @@ const Home = () => {
           <p>We’re here to help you anytime</p>
         </div>
       </section>
-       <div className="bar"></div>
-      <section className="contact-detail" id="contact">
-        <p>Email: abc@gmail.com</p>
-      </section>
-      <footer className="footer">
+      <div className="bar">
+        <footer className="footer">
         <p>&copy; {new Date().getFullYear()} WatchStore — All rights reserved.</p>
-      </footer>
+      </footer></div>
+
     </div>
   )
 }
 
-export default Home
+export default Home;

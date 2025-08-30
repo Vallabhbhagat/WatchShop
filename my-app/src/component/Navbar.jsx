@@ -9,7 +9,6 @@ const Navbar = () => {
                     <a href="/">Home</a>
                     <a href="/Products">Product</a>
                     <a href="/Cart">🛒 Cart</a>
-                    <a href="/#contact">Contact Us</a>
                 </ul>
             </nav>
         </div>
