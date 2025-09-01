@@ -48,7 +48,8 @@ const Products = () => {
                             <div className="card">
                                 <img src={p.url} alt={p.movementName} />
                                 <h3>{p.movementName}</h3>
-                                <p className="price">€{p.priceInEuro}</p>
+                                {/* <p className="price">€{p.priceInEuro}</p> */}
+                                {p.priceInEuro ? (<p className="price">€{p.priceInEuro}</p>) : (<p className="price">€10000</p>)}
                                 <button>Add to cart</button>
                             </div>
                         </li>
