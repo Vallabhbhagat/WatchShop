@@ -1,6 +1,6 @@
 :root {
-    --primary: rgb(255, 255, 188);
-    --secondary: #8b0000;
+    --primary:#0b0b0d;
+    --secondary:#d4af37;
     --dark: #0a0a0a;
 }
 .product-page {
@@ -40,7 +40,7 @@
 
 .card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 12px 24px rgb(255, 229, 83);
 }
 
 .card img {
@@ -80,4 +80,8 @@
 .card button:hover {
   background: linear-gradient(135deg, #333, var(--secondary));
   transform: scale(1.05);
+}
+.card button:active{
+  background: #ffde71;
+  color: #333;
 }

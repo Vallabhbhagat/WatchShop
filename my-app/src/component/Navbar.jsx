@@ -4,7 +4,7 @@ const Navbar = () => {
     return (
         <div className="nav">
             <h2 className="title">WatchShop</h2>
-            <nav className="navbar">
+            <nav className="navbar hidden md:flex space-x-6">
                 <ul className="flex ">
                     <li>
                         <Link to="/">Home</Link>
